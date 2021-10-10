@@ -1,26 +1,121 @@
-<!-- <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        console.log('hello');
-        alert('warning')
-    </script>
-</body>
-</html> -->
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS HTMl</title>
 </head>
 <body>
-    <script src="home.js"></script>
-</body>
+    <h1>This is the </h1>   
+    <div class="container">
+        <button id="click">click</button>
+    </div>
+    <script>
+
+        // javascript console api
+
+
+        console.log('hello world ,6+561,aenother ');
+        // alert('me');
+        // document.write("this is the document write "); // avoid this gor prctice
+        // console.warn("this is the warning ")  // get the warniing 
+        // console.error("this is an error")       // this is an errror
+
+        // variables in javascrript 
+        // variable are container - container to store data vaalues 
+        var number1 = 36;
+        var number2 = 14;
+        console.log(number1+number2);
+
+
+        // Data types in javascript
+
+        //Numbers
+        var num1= 535;
+        var num2 = 35335;
+
+        // string
+        var str1 = "this is a string";
+        var str2 = 'This is also a string ';
+
+        //objects
+        var marks = {
+            me : 93,
+            you: 594,
+            he : 73
+        };
+
+        // Booleans 
+        var a = true ;
+        var b = false;
+
+        // undefined value 
+        var und; // this is the undefined value 
+
+        // null data types 
+        var a = null;
+
+        // symbol data types
+        // provide an unique value ;
+
+
+        // At a high level there are two types of data types;
+        // 1. primitive data types : undefined , null , number , string , boolean , symbol;
+        // 2.Reference data types : Arrays and Objecrs ;
+
+
+
+        // Array in Javascript ;
+        var arr = [1,2,3,4,5];
+        console.log(arr)
+
+
+        // Operators in Javascript 
+        var a = 83;
+        var b = 38;
+        // 1. Arithmetic operator perfor add sub div nad multiplication 
+
+        // 2.Assignment Operators
+        // -= , += *= , /= are assignment operators 
+
+        // 3.comparison Operator 
+        // ==  , >= , <= , < , >  -> give boolean vlaue;
+
+        // Logical operators 
+        // fix in mind truth table of and , or gate 
+        // logical not mean not gate(!)
+
+
+
+        // Function In javascript 
+        //Function use for  DRY = Don't Repeat Yourself principle;
+        function avg(a,b)
+        {
+            return a+b;
+        }
+
+        function avg(a,b)
+        {
+            return (a+b)/2;
+        }
+
+        function avg(a,b)
+        {
+            return (a+b)*8;
+        }
+
+        function avg(a,b)
+        {
+            return a-b;
+        }
+
+        c1 = avg(2,4);
+        c2 = avg(83,44);
+        console.log(c1,c2)
+
+
+
+    </script>
+     </body>
 </html>
